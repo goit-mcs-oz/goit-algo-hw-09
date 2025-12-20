@@ -47,7 +47,6 @@ print(find_min_coins(coins, sum))
 time = timeit.timeit(lambda: find_coins_greedy(coins, 157562), number=200)
 print(
     f'# Функція жадібного алгоритму. time = {time} ')
-print(27.646/0.000146)
 time = timeit.timeit(lambda: find_min_coins(coins, 157562), number=200)
 print(
     f'# Функція динамічного програмування. time = {time} ')
